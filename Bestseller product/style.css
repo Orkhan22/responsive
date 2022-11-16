@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#top {
+  width: 100%;
+  text-align: center;
+}
+#top .about {
+  padding: 30px;
+}
+#top .about h4 {
+  opacity: 0.6;
+  padding: 10px;
+}
+#top .about p {
+  opacity: 0.6;
+  padding: 10px;
+}
+#top .cate .men {
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #1ebfb6;
+  margin-right: 20px;
+}
+#top .cate .women {
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  /* border: none; */
+  background: transparent;
+  border: 2px solid #1ebfb6;
+  margin-right: 20px;
+}
+#top .cate .acces {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  /* border: none; */
+  background: transparent;
+  border: 2px solid #1ebfb6;
+}
+
+#bottom {
+  width: 100%;
+  height: auto;
+}
+#bottom .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#bottom .container .box {
+  display: flex;
+  flex-wrap: wrap;
+}
+#bottom .container .box .card {
+  width: 20%;
+  padding: 50px;
+}
+#bottom .container .box .card img {
+  width: 100%;
+}
+#bottom .container .box .card .card-info {
+  text-align: center;
+  padding: 10px;
+}
+#bottom .container .box .card .card-info h4 {
+  padding: 5px;
+  font-weight: bold;
+}
+#bottom .container .box .card .card-info p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+#bottom .container .box .card .card-info span {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #bottom .container .box .card {
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #bottom .container .box .card {
+    width: 33%;
+  }
+}/*# sourceMappingURL=style.css.map */
